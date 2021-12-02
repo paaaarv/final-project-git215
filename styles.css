@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&family=Raleway:wght@500&display=swap&family=Roboto+Slab:wght@500&display=swap');
 
 body{
-    background-color: #591824;
+    /*background-color:#152126;*/
     margin: 0;
 }
 
@@ -9,10 +9,11 @@ body{
     width: 1400px;
     margin: auto;
     text-align:center;
-    color: #F2C1AE;
+    color: #152126;
     width:98%;
 }
 #heading{
+    color: #D98471;
     margin: 10px auto 40px;
     font-family: "Raleway", sans-serif;
     font-size: 7vh;
@@ -22,9 +23,10 @@ body{
     margin-bottom: 20px;
 }
 .link{
-    color:#D9961A;
+    color:#025373;
     font-family: "Roboto Slab", serif;
     font-size: 1.3vw;
+    font-variant: small-caps;
 }
 .navigation .link{
         margin: 80px;
@@ -38,8 +40,8 @@ body{
     font-family: "Quicksand", sans-serif;
     font-size: 3vh;
     padding: 15px 0 40px;
-    background-color: #8C2B3D;
-    border: 2px solid #F2C1AE;
+    background-color: #D96704;
+    border: 2px solid #025373;
 }
 
 .cater{
@@ -54,13 +56,12 @@ h2{
 h3{
     font-size: 4vh;
     font-family: "Raleway", sans-serif;
-    color: #D9961A;
+    color: #025373;
 }
  p {
     font-size: 1.1vw;
     font-family: "Montserrat", sans-serif;
-
-    color: #F2C1AE;
+    color: #D98471;
 
 }
 
@@ -85,9 +86,34 @@ h3{
     margin-right: 5px;
 }
 
-footer{
+.footer{
     clear:both;
-    background-color: #8C2B3D;
+    background-color: #D96704;
     height: 10vh;
-    border: 2px solid #F2C1AE;
+    border: 2px solid #025373;
+}
+
+.footer p{
+    color: #152126;
+}
+.contact-header{
+    color: #025373;
+}
+#form-wrapper{
+    display: flex;
+    width: 70%;
+    border: 2px solid #025373;
+
+}
+#img-section{
+    width: 40%;
+}
+
+#form-section{
+    margin:auto;
+}
+
+input{
+    display:block;
+
 }
