@@ -1,7 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&family=Raleway:wght@500&display=swap');
 
+body{
+    background-color: #591824;
+    margin: 0;
+}
 
+.wrapper{
+    text-align:center;
+    color: #F2C1AE;
+}
 #heading{
-    text-align: center;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 6vh;
+}
 
+.navigation{
+    margin-bottom: 40px;
+}
 
+.link{
+    color: #D9961A;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3vw;
+
+}
+
+.navigation .link{
+        margin-right: 6vw;
+}
+
+.image{
+    width: 100%;
+}
+.modernHeading{
+    font-family: "Quicksand", sans-serif;
+    font-size: 3vh;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.cater{
+    background-color: #D9961A;
+    padding: 30px 0 50px;
+    width: 100%;
+
+}
+h2{
+    margin: 5px auto;
+}
+
+h3{
+    font-size: 3vh;
+    font-family: "Raleway", sans-serif;
+    color: #F2C1AE;
+}
+.cater p {
+    font-size: 1.1vw;
+    font-family: "Montserrat", sans-serif;
+    color: #8C2B3D;
+
+}
+
+.section-wrapper{
+    display: flex;
+}
+
+.chef, .local{
+    width: 50%;
 }
